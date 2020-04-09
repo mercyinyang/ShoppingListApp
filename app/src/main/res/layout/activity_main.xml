@@ -8,13 +8,12 @@
         tools:context=".MainActivity">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/shoppingRecycler"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="188dp"
-            tools:layout_editor_absoluteY="31dp">
+            android:id="@+id/appRecycler">
 
         </androidx.recyclerview.widget.RecyclerView>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
