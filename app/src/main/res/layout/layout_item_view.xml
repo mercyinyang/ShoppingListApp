@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="80dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -20,22 +20,24 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="match_parent"
             android:orientation="vertical">
+
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/appName"
-                android:layout_margin="6dp"
-                android:textSize="22dp"
-                tools:text="Food Items"/>
-            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/appDescription"
                 android:layout_margin="8dp"
-                android:textSize="10dp"
-                tools:text="List of food items to buy"/>
+                android:textSize="26dp"
+                tools:text="Food Items"/>
+
+            <TextView
+                android:id="@+id/appDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:textSize="14dp"
+                tools:text="List of food items to buy" />
         </LinearLayout>
     </LinearLayout>
 
